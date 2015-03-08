@@ -101,6 +101,7 @@ BOARD_SEPOLICY_DIRS += \
 
 # Device specific additions
 BOARD_SEPOLICY_UNION += \
+    aplogd.te \
     atvc.te \
     atvc_core.te \
     batt_health.te \
