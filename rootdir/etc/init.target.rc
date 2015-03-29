@@ -107,6 +107,7 @@ on fs
     # Mount userdata -- userdata must in fstab.<ro.hardware> in order to
     # have functional encryption
     mount_all fstab.qcom
+    swapon_all fstab.qcom
 
     # Trigger modem boot immediately after system and modem mount to speed up modem initialization
     start bootmodem
