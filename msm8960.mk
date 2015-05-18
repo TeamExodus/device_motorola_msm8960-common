@@ -31,6 +31,9 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     audio.primary.msm8960
+# Doze
+PRODUCT_PACKAGES += \
+    MotoDoze
 
 # HAL
 PRODUCT_PACKAGES += \
