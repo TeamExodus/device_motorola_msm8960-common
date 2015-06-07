@@ -20,7 +20,7 @@
 for different hardware and product builds. -->
 <resources>
 
-    <!-- Whether to enable to show task manager or not -->
-    <bool name="config_showTaskManagerSwitcher">true</bool>
+    <!-- Whether to enable to show task manager or not
+    <bool name="config_showTaskManagerSwitcher">true</bool> -->
 
 </resources>
